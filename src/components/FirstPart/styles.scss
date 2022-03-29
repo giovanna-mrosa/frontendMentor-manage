@@ -1,0 +1,224 @@
+.first-container {
+  display: flex;
+  flex-direction: column;
+  background: url(../../assets/bg-desktop.svg) no-repeat top -300px right -380px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    .card1 {
+      display: flex;
+      padding: 120px;
+      gap: 100px;
+      align-items: center;
+
+      .card1-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+          color: var(--blue-100);
+          font-size: 50px;
+          font-weight: 700;
+          line-height: 63px;
+          letter-spacing: -0.015em;
+        }
+
+        p {
+          font-family: Be Vietnam Pro;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0.035em;
+          color: var(--blue-50);
+          width: 345px;
+        }
+
+        .btn-start2 {
+          height: 44px;
+          width: 137px;
+          border-radius: 24px;
+          box-shadow: 0px 4px 9px 0px var(--orange-100);
+          background-color: var(--orange-100);
+          font-size: 13px;
+          font-weight: 700;
+          letter-spacing: -0.03em;
+          color: var(--orange-10);
+          border: none;
+          outline: none;
+          cursor: pointer;
+
+          transition: all ease 0.2s;
+
+          &:hover {
+            background: var(--orange-50);
+            box-shadow: 0px 4px 9px 0px var(--orange-50);
+          }
+        }
+      }
+
+      img {
+        height: fit-content;
+        width: 510px;
+      }
+    }
+
+    .card2 {
+      display: flex;
+      padding: 0 120px 120px 120px;
+      gap: 150px;
+      align-items: flex-start;
+      width: 100%;
+
+      .card2-content1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+          font-size: 29.76px;
+          font-weight: 700;
+          line-height: 43px;
+          letter-spacing: 0.035em;
+          color: var(--blue-100);
+        }
+
+        p {
+          font-family: Be Vietnam Pro;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0.035em;
+          color: var(--blue-50);
+        }
+      }
+    }
+    .card3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
+      padding-bottom: 100px;
+
+      h1 {
+        font-size: 29.76px;
+        font-weight: 700;
+        line-height: 43px;
+        letter-spacing: 0.035em;
+        text-align: left;
+        color: var(--blue-100);
+      }
+
+      .carousel-box {
+        .jhmYzC {
+          box-shadow: 0 0 1px 2px var(--orange-100);
+          width: 5px;
+          height: 5px;
+        }
+        .krmNah {
+          background-color: var(--orange-50);
+          width: 5px;
+          height: 5px;
+          box-shadow: 0 0 1px 3px var(--orange-100);
+
+          &:hover {
+            box-shadow: 0 0 1px 3px var(--orange-100);
+          }
+        }
+        .feedback {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          gap: 20px;
+          padding: 0 30px;
+
+          img {
+            height: fit-content;
+            width: 75px;
+          }
+
+          h5 {
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -0.035em;
+            color: var(--blue-100);
+          }
+
+          p {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.035em;
+            color: var(--blue-50);
+          }
+        }
+      }
+
+      .btn-start3 {
+        height: 44px;
+        width: 137px;
+        border-radius: 24px;
+        box-shadow: 0px 4px 9px 0px var(--orange-100);
+        background-color: var(--orange-100);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        color: var(--orange-10);
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        transition: all ease 0.2s;
+
+        &:hover {
+          background: var(--orange-50);
+          box-shadow: 0px 4px 9px 0px var(--orange-50);
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    background: url(../../assets/bg-mobile.svg) no-repeat;
+
+    .content {
+      .card1 {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+
+        .card1-content {
+          order: 2;
+          align-items: center;
+          gap: 15px;
+
+          h1 {
+            font-size: 35px;
+            line-height: 45px;
+          }
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+      .card2 {
+        flex-wrap: wrap;
+        padding: 20px 0 20px 20px;
+        gap: 55px;
+
+        .card2-content1 {
+          align-items: center;
+          text-align: center;
+        }
+      }
+      .card3 {
+        gap: 50px;
+        padding-bottom: 55px;
+      }
+    }
+  }
+}

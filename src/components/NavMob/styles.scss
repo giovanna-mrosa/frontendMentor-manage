@@ -1,0 +1,48 @@
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 60px 30px 0 30px;
+
+  position: relative;
+
+  .logo-mob {
+    z-index: 2;
+  }
+
+  .burger {
+    z-index: 2;
+  }
+
+  .menu-box {
+    background-color: #fff;
+    width: 82%;
+    z-index: 3;
+    position: absolute;
+    top: 120px;
+    right: 35px;
+    box-shadow: 0px 0px 19px 1px #00000026;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+
+    transition: all ease 0.9s;
+
+    .first-link {
+      color: var(--blue-100);
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: -0.025em;
+    }
+  }
+
+  .hidden-menu-box {
+    top: -315px;
+    padding: 0;
+  }
+}

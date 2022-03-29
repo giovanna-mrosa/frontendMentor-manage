@@ -1,0 +1,55 @@
+.card2-content2-mob {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .one-mob {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .number-title {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      width: 100%;
+      background: var(--orange-10);
+      overflow: hidden;
+
+      .number {
+        background-color: var(--orange-100);
+        height: 35px;
+        width: 52px;
+        min-width: 52px;
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          color: var(--orange-10);
+          font-size: 16px;
+          font-weight: 700;
+          letter-spacing: -0.025em;
+        }
+      }
+
+      h5 {
+        font-size: 15px;
+        font-weight: 500;
+        text-align: left;
+        color: var(--blue-100);
+      }
+    }
+    .one-text {
+      padding: 0 20px 30px 0;
+      .paragraph {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.035em;
+        color: var(--blue-50);
+      }
+    }
+  }
+}
