@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontendMentor-manage/static/css/main.93f800f5.css",
-    "main.js": "/frontendMentor-manage/static/js/main.c9bbbbde.js",
+    "main.css": "/frontendMentor-manage/static/css/main.eb541935.css",
+    "main.js": "/frontendMentor-manage/static/js/main.342c12ee.js",
     "static/media/avatar-ali.png": "/frontendMentor-manage/static/media/avatar-ali.88f9155cb730934f4d7c.png",
     "static/media/avatar-shanai.png": "/frontendMentor-manage/static/media/avatar-shanai.4bbe2f95e8975736fbd8.png",
     "static/media/illustration-intro.svg": "/frontendMentor-manage/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
@@ -21,11 +21,11 @@
     "static/media/icon-close.svg": "/frontendMentor-manage/static/media/icon-close.d5ba0dc53461cfc81979638f3b9fcf2e.svg",
     "static/media/bg-simplify-section-mobile.svg": "/frontendMentor-manage/static/media/bg-simplify-section-mobile.a79c8471fa284189552d.svg",
     "static/media/icon-hamburger.svg": "/frontendMentor-manage/static/media/icon-hamburger.8dcf47cc6f3180ad040f1173f3592504.svg",
-    "main.93f800f5.css.map": "/frontendMentor-manage/static/css/main.93f800f5.css.map",
-    "main.c9bbbbde.js.map": "/frontendMentor-manage/static/js/main.c9bbbbde.js.map"
+    "main.eb541935.css.map": "/frontendMentor-manage/static/css/main.eb541935.css.map",
+    "main.342c12ee.js.map": "/frontendMentor-manage/static/js/main.342c12ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.93f800f5.css",
-    "static/js/main.c9bbbbde.js"
+    "static/css/main.eb541935.css",
+    "static/js/main.342c12ee.js"
   ]
 }
