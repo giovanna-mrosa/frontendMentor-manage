@@ -1,8 +1,9 @@
 .container-footer-mob {
   display: flex;
+  flex-direction: column;
   width: 100%;
   background: var(--blue-200);
-  height: 700px;
+  height: 550px;
   padding: 60px 20px 15px 20px;
   color: #fff;
   justify-content: center;
