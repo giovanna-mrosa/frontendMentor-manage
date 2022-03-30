@@ -112,20 +112,16 @@
       }
 
       .carousel-box {
-        .jhmYzC {
-          box-shadow: 0 0 1px 2px var(--orange-100) !important;
+        .rec-dot {
+          box-shadow: 0 0 1px 2px var(--orange-100);
           width: 5px;
           height: 5px;
         }
-        .krmNah {
-          background-color: var(--orange-50) !important;
+        .rec-dot_active {
+          background-color: var(--orange-50);
           width: 5px;
           height: 5px;
-          box-shadow: 0 0 1px 3px var(--orange-100) !important;
-
-          &:hover {
-            box-shadow: 0 0 1px 3px var(--orange-100) !important;
-          }
+          box-shadow: 0 0 1px 3px var(--orange-100);
         }
         .feedback {
           display: flex;
